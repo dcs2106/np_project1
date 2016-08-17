@@ -45,7 +45,7 @@ int main(int argc,char *argv[])
 	
 	int environ_num=0;
 	clearenv();
-	//chdir("/net/gcs/104/0456115/ras");
+	chdir("/net/gcs/104/0456115/ras");
 	setenv("PATH","bin:.",1);//set environment
 	strcpy(environpath[environ_num],"PATH");
 	environ_num++;
